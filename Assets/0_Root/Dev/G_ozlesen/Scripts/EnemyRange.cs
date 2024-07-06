@@ -8,7 +8,6 @@ public class EnemyRange : MonoBehaviour
     {
         if(collision.TryGetComponent(out EnemyMovement enemy))
         {
-            Debug.Log("Enemies");
             GameManager.Instance.Enemies.Add(enemy.transform);
         }
     }

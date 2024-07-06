@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3811413644163656350}
-  - component: {fileID: 8908457771508995654}
   - component: {fileID: 6567262067419999800}
   - component: {fileID: 2135134911155455180}
+  - component: {fileID: 8908457771508995654}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -35,18 +35,6 @@ Transform:
   - {fileID: 6647800113282145463}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8908457771508995654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548199541349855283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44ac24d480092fc4fb972a3171b76ab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &6567262067419999800
 Rigidbody2D:
   serializedVersion: 4
@@ -119,6 +107,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07, y: 0.07}
   m_EdgeRadius: 0
+--- !u!114 &8908457771508995654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548199541349855283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ac24d480092fc4fb972a3171b76ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RB: {fileID: 6567262067419999800}
+  isTrigger: 0
 --- !u!1 &6626991035603177305
 GameObject:
   m_ObjectHideFlags: 0

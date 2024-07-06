@@ -7,13 +7,24 @@ public class FireControl : MonoBehaviour
     public Rigidbody2D Rb;
     public float Speed;
     private Vector2 targetDirection;
+    public bool Multiple;
     private void OnEnable()
     {
         if (AttackManager.Instance.NearestEnemy == null) return;
         transform.position = GameManager.Instance.Player.position;
-        Vector2 direction = (AttackManager.Instance.NearestEnemy.position - transform.position).normalized;
-        Initialize(direction);
-        StartCoroutine(GameobjectPassive());
+        if (!Multiple)
+        {
+            Vector2 direction = (AttackManager.Instance.NearestEnemy.position - transform.position).normalized;
+            Initialize(direction);
+            StartCoroutine(GameobjectPassive());
+        }
+        else
+        {
+            int randomEnemy = Random.Range(0, GameManager.Instance.Enemies.Count);
+            Vector2 direction = (GameManager.Instance.Enemies[randomEnemy].transform.position - transform.position).normalized;
+            Initialize(direction);
+            StartCoroutine(GameobjectPassive());
+        }
 
     }
 
@@ -28,16 +39,8 @@ public class FireControl : MonoBehaviour
         if (collision.TryGetComponent(out EnemyMovement Enemy))
         {
             gameObject.SetActive(false);
-            GameObject item = GameManager.Instance.DamageTMPPooler.GetPooledObject(0);
-            item.SetActive(true);
-            item.GetComponent<DamageTMPControl>().SetText(Enemy.transform.position, Random.Range(10, 20));
-            int index = GameManager.Instance.Enemies.IndexOf(Enemy.transform);
-            GameManager.Instance.Enemies.RemoveAt(index);
-            item = GameManager.Instance.CoinPooler.GetPooledObject(0);
-            item.transform.position = Enemy.transform.position;
-            item.SetActive(true);
-            Enemy.gameObject.SetActive(false);
-
+            Enemy.TakeDamage(AttackManager.Instance.Damage);
+            Multiple = false;
         }
     }
     IEnumerator GameobjectPassive()
@@ -46,6 +49,7 @@ public class FireControl : MonoBehaviour
         if (gameObject.activeInHierarchy)
         {
             gameObject.SetActive(false);
+            Multiple = false;
         }
     }
 

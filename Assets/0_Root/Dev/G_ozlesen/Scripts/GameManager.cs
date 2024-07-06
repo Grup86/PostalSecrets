@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     private float _elapsedTime = 0f;
     private float _lastStartTime;
 
+    public int EnemyKilledCount;
+    public float TimeAmount;
+
 
     void Awake()
     {
@@ -32,12 +35,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    private void Start()
+    {
+        EnemyKilledCount = 0;
+        CanvasController.Instance.KilledEnemyCount.text = "SCORE: " + EnemyKilledCount;
+        Time.timeScale = 1f;
+    }
+
     void Update()
     {
         if (StartGame)
         {
             float currentTime = Time.time - _lastStartTime + _elapsedTime;
-
+            TimeAmount = currentTime;
             string minutes = ((int)currentTime / 60).ToString("00");
             string seconds = (currentTime % 60).ToString("00");
 
@@ -85,5 +96,11 @@ public class GameManager : MonoBehaviour
 
         CanvasController.Instance.TimerTMP.text = minutes + ":" + seconds;
 
+    }
+
+    public void SetKilledEnemyCount()
+    {
+        EnemyKilledCount++;
+        CanvasController.Instance.KilledEnemyCount.text = "SCORE: " + EnemyKilledCount;
     }
 }

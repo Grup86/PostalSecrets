@@ -9,7 +9,7 @@ Grup 86
 - Hasan Oğuz Kankal: Product Owner/Artist
 - Furkan Şağban: Scrum Master/Developer
 - Gamze Ekmen: Team Member/Developer
-- Gülay Özeşen: Team Member/Developer
+- Gülay Özleşen: Team Member/Developer
 - Gökçe Asya Alkır: Team Member/Artist
 
 ## Ürün İsmi

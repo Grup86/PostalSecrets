@@ -37,6 +37,7 @@ Grup 86
 
 - Oyunun teması, türünü, hikayesi, yazılıcak kodları belirledik. Arından yazılacak kodları ve çizilecek görselleri kendi içimizde görevlendirdik.
 - Hasan ve Asya görsel kısımı yapacakken Gamze, Gülay ve Furkan kod kısmını yapacaklar.
+- Backlog için puan sistemi kullanılması kafa karışıkllığına yol açıcağı ve bizi yavaşlatıcağına karar verip, puan sistemi yerine daha efektif olacağını düşündüğümüz puansız bir şeilde görev dağılımı yapılmıştır ve bu sprintn görevleri fazlasıyla yerine getirilmiştir.
 
 - **Daily Scrum**:
 - Hasan Karakter düşman tasarımları yaptı.

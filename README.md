@@ -62,7 +62,7 @@ Grup 86
 
 - **Sprint Retrospective:**
   - Hasan oyuna ses dosyası ekleyecek ve tasarlanmış karkterlerin animasyonlarını yapacak.
-  - Asya arkaplan haritasını büyültcek.
+  - Asya arkaplan haritasını büyültcek ve belirlenmiş U.I.ları çizecek.
   - Kod kısmı geriye kalan kodları tamamlayacak.
 
 -**Diğer Notlar**:

@@ -72,6 +72,16 @@ Grup 86
 
 # Sprint 2
 
+- **Sprint Notları**:
+Arkaplanda küçük değişiklikler yapıldı.
+![image](https://github.com/user-attachments/assets/ecfb6da7-75f9-49f3-9f54-727ecbef50fc)
+
+
+- **Sprint Review**: 
+Genel olarak bu iki hafta herkesin kedi işi vardı ve projeye vakit ayırılamadı. Arkaplanda küçük değişiklikler oldu.
+
+- **Sprint Retrospective:**
+3. Sprinin 1. haftası tüm görseller ve kodlar birleştirilip oyunu bitirilmesi planlanıyor, 2. hafta da eğer eksik bir şeyler kalırsa bunlar tamamlanacak.
 
 ---
 

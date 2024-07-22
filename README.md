@@ -73,15 +73,22 @@ Grup 86
 # Sprint 2
 
 - **Sprint Notları**:
-Arkaplanda küçük değişiklikler yapıldı.
+Arka planda ortak karar doğrultusunda bazı değişiklikler yapıldı.
 ![image](https://github.com/user-attachments/assets/ecfb6da7-75f9-49f3-9f54-727ecbef50fc)
 
+Gamze map konusunda asya ile konuşarak yardım edebileceğini söyledi ve başladılar çalışmaya.
+Furkan ve Gamze geri kalan dev kısmında ilerleme kaydetecek.
+Sprnt 3 hafatsı için oyunun büyük çoğunluğu tamamlanmaya çalışılıp ekipce oyuna geniş pencereden bakılacak.
+Gülay kod kısmında ve geri kalan her konu da ekibe destek olacak.
 
 - **Sprint Review**: 
-Genel olarak bu iki hafta herkesin kedi işi vardı ve projeye vakit ayırılamadı. Arkaplanda küçük değişiklikler oldu.
+Bu sprintde yazılması planlanan kodlar ve map üzerine bazı eklemeler yapılabilir mi? diye aramızda tartıştık. Bu hafta ekipce yoğun bir zaman geçirdiğimiz için planlananları çok yerine getiremedik. Arka planda ki değişiklikler konuşuldu.
 
 - **Sprint Retrospective:**
-3. Sprinin 1. haftası tüm görseller ve kodlar birleştirilip oyunu bitirilmesi planlanıyor, 2. hafta da eğer eksik bir şeyler kalırsa bunlar tamamlanacak.
+Hasan oyuna ses dosyası ekleyecek ve tasarlanmış karkterlerin animasyonlarını yapacak.
+Gamze map için Asya ile birlikte çalışacak
+Gülay Furkan ve Gamze kod kısmında birlikte iletişim halinde olacak ve eksik kısımlar tamamlanarak sprint 3 için oyun yetiştirilmeye çalışılacak.
+
 
 ---
 

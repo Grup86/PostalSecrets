@@ -95,3 +95,16 @@ Gülay Furkan ve Gamze kod kısmında birlikte iletişim halinde olacak ve eksik
 # Sprint 3
 
 ---
+- **Sprint Notları**:
+Oyun final haline geldi.
+
+-Yeni enemy çeşitleri entegre edildi
+-Enemy animasyonları entegre edildi
+-Yeni coin animasyonu ve sprite entegre edildi
+-Oyuna menü ve Ingame müzikleri entegre edildi
+-Harita sınırlandırıldı
+-Player animasyonları ve sprite değişti
+-Exe alındı
+
+Development aşamalarının hepsini Gülay Özleşen tamamladı.
+Projeyi finalize ettik.

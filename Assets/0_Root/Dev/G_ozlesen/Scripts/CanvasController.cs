@@ -62,6 +62,8 @@ public class CanvasController : MonoBehaviour
     {
         TogglePanel(InGamePanel);
         GameManager.Instance.StartTimer();
+        GameManager.Instance.AudioSource.clip = GameManager.Instance.IngameClip;
+        GameManager.Instance.AudioSource.Play();
     }
     public void GoButtonClick()
     {

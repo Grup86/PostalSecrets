@@ -22,11 +22,11 @@ public class PlayerController : MonoBehaviour
 
         if (moveX < 0)
         {
-            SpriteRenderer.flipX = false;
+            SpriteRenderer.flipX = true;
         }
         else if (moveX > 0)
         {
-            SpriteRenderer.flipX = true;
+            SpriteRenderer.flipX = false;
         }
         PlayerRigidbody.velocity = _movement * MoveSpeed;
         #endregion Move

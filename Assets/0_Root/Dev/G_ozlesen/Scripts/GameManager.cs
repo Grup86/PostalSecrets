@@ -16,11 +16,17 @@ public class GameManager : MonoBehaviour
     public ObjectPooler CoinPooler;
 
     [Header("Other")]
+
     private float _elapsedTime = 0f;
     private float _lastStartTime;
 
+    public AudioSource AudioSource;
+    public AudioClip MenuClip;
+    public AudioClip IngameClip;
     public int EnemyKilledCount;
     public float TimeAmount;
+
+
 
 
     void Awake()
